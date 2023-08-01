@@ -13,7 +13,7 @@ function toggleCart() {
       <span className="category">{category}</span>
       <button onClick={toggleCart} className="add">
         {virtCart ? "Remove from cart" : "Add to cart"}
-        Add to Cart</button>
+        </button>
     </li>
   );
 }
